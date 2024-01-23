@@ -5,9 +5,6 @@ import { styles } from '../style'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
-  // template Id : template_9npcs9k
-  // mail ID : service_wtczn79
-  // account ID : 5oZ4jAZlCLjSg7b7i
 const Contact = () => {
 
   const[form,setForm]=useState({
