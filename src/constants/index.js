@@ -24,6 +24,7 @@ import {
     AnimeVault,
     NetflixClone,
     NextJs,
+    jobit
   } from "../assets";
   
   export const navLinks = [
@@ -283,6 +284,20 @@ import {
       ],
       image: NetflixClone,
       source_code_link: "https://github.com/sabriLamouchi/Netflix-clone.git",
+      live_link:""
+    },
+    {
+      name: "Job-It",
+      description:
+        "mobile application that allow you to search and find a perfect job to you with your experience and technologie you have",
+      tags: [
+        {
+          name: "react native",
+          color: "text-blue-400",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/sabriLamouchi/job-it-app",
       live_link:""
     },
   ];
