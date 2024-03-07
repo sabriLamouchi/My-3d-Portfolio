@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import shoesTrunk from './shoesTrunk.png'
 import AnimeVault from './animeVault.png'
 import NetflixClone from './NetflixClone.png'
+import sabriSaas from "./sabriSaas.png"
 export {
   logo,
   backend,
@@ -71,4 +72,5 @@ export {
   NetflixClone,
   live,
   NextJs,
+  sabriSaas,
 };
