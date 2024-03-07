@@ -25,7 +25,7 @@ import {
     NetflixClone,
     NextJs,
     jobit,
-    sabriSaas
+    sabriSaas,
   } from "../assets";
   
   export const navLinks = [
