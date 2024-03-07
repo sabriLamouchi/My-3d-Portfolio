@@ -24,7 +24,8 @@ import {
     AnimeVault,
     NetflixClone,
     NextJs,
-    jobit
+    jobit,
+    sabriSaas
   } from "../assets";
   
   export const navLinks = [
@@ -299,6 +300,44 @@ import {
       image: jobit,
       source_code_link: "https://github.com/sabriLamouchi/job-it-app",
       live_link:""
+    },
+    {
+      name: "Sabri-saas",
+      description:
+        "Saas application that allow you to Add Notes, View Notes,  Edit Notes, Delete Notes with a monthly  subsicription with stripe ",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "text-neutral-500",
+        },
+        {
+          name: "Supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "text-blue-400",
+        },
+        {
+          name: "Kinde",
+          color: "text-neutral-500",
+        },
+        {
+          name: "typeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: sabriSaas,
+      source_code_link: "https://github.com/sabriLamouchi/sabri-saas-application.git",
+      live_link:"https://sabri-saas.vercel.app/"
     },
   ];
   
