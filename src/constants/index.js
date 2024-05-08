@@ -15,10 +15,6 @@ import {
     git,
     figma,
     php,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     threejs,
     shoesTrunk,
     AnimeVault,
@@ -26,6 +22,11 @@ import {
     NextJs,
     jobit,
     sabriSaas,
+    freelance,
+    isimg,
+    petpair,
+    travelGO,
+    plani
   } from "../assets";
   
   export const navLinks = [
@@ -124,55 +125,40 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
       title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      company_name: "freelance",
+      icon: freelance,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "MARS 2024 - until Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining mobile application with react native .",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Implementing responsive design and ensuring cross-platform which IOS and ANDROID compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "freelace",
+      icon: NextJs,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using NEXT.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "software engineer",
+      company_name: "ISIMG",
+      icon: isimg,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "oct 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I am currently enrolled in the esteemed software engineering program at ISIMG (Institut Supérieur d'Informatique et de Multimédia de Gabès). This renowned institution provides a conducive learning environment where I am equipped with the knowledge, skills, and resources necessary to thrive in the realm of software engineering.",
+        "In addition to academic rigor, ISIMG places a strong emphasis on professional development. Through workshops, seminars, and industry collaborations, I am gaining valuable insights into industry trends, best practices, and emerging technologies. These opportunities not only augment my academic learning but also prepare me for a successful career in software engineering",
       ],
     },
   ];
@@ -338,6 +324,60 @@ import {
       image: sabriSaas,
       source_code_link: "https://github.com/sabriLamouchi/sabri-saas-application.git",
       live_link:"https://sabri-saas.vercel.app/"
+    },
+    {
+      name: "pet-pair",
+      description:
+        "PetPair connects pet owners with compassionate caregivers in their area. Swipe through profiles, chat with potential matches, and rest assured knowing your pet is in good hands with PetPair.",
+      tags: [
+        {
+          name: "react native",
+          color: "text-blue-500",
+        },
+        {
+          name: "expo",
+          color: "text-neutral-500",
+        },
+      ],
+      image:petpair ,
+      source_code_link: "#",
+      live_link:"#"
+    },
+    {
+      name: "Plani",
+      description:
+        "Plani is an intuitive app that simplifies event planning and participation. With its chat-based interface, users can effortlessly create and join events, making organizing and coordinating gatherings a breeze.",
+      tags: [
+        {
+          name: "react native",
+          color: "text-blue-500",
+        },
+        {
+          name: "expo",
+          color: "text-neutral-500",
+        },
+      ],
+      image:plani,
+      source_code_link: "#",
+      live_link:"#"
+    },
+    {
+      name: "Travel Go",
+      description:
+        "Travel Go is your ultimate companion for hassle-free hotel bookings worldwide. With just a few taps, find and reserve the perfect accommodation in any country, whether it's a luxury resort or a cozy budget hotel.",
+      tags: [
+        {
+          name: "react native",
+          color: "text-blue-500",
+        },
+        {
+          name: "expo",
+          color: "text-neutral-500",
+        },
+      ],
+      image:travelGO,
+      source_code_link: "https://github.com/sabriLamouchi/Travel-go-React-native-app.git",
+      live_link:"#"
     },
   ];
   
