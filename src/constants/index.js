@@ -211,7 +211,8 @@ import {
       ],
       image: shoesTrunk,
       source_code_link: "https://github.com/sabriLamouchi/shoesTrunk-Project",
-      live_link:"https://sabrilamouchi.github.io/shoesTrunk-Project/"
+      live_link:"https://sabrilamouchi.github.io/shoesTrunk-Project/",
+      status:"Done"
     },
     {
       name: "Anime Vault ",
@@ -237,7 +238,8 @@ import {
       ],
       image: AnimeVault,
       source_code_link: "https://github.com/sabriLamouchi/anime-vault.git",
-      live_link:"https://anime-vault-by-sabri-lamouchi.vercel.app/"
+      live_link:"https://anime-vault-by-sabri-lamouchi.vercel.app/",
+      status:"Done"
     },
     {
       name: "NetFlix-clone",
@@ -271,7 +273,8 @@ import {
       ],
       image: NetflixClone,
       source_code_link: "https://github.com/sabriLamouchi/Netflix-clone.git",
-      live_link:""
+      live_link:"",
+      status:"Done"
     },
     {
       name: "Job-It",
@@ -285,7 +288,8 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/sabriLamouchi/job-it-app",
-      live_link:""
+      live_link:"",
+      status:"Done"
     },
     {
       name: "Sabri-saas",
@@ -323,7 +327,8 @@ import {
       ],
       image: sabriSaas,
       source_code_link: "https://github.com/sabriLamouchi/sabri-saas-application.git",
-      live_link:"https://sabri-saas.vercel.app/"
+      live_link:"https://sabri-saas.vercel.app/",
+      status:"Done"
     },
     {
       name: "pet-pair",
@@ -341,7 +346,8 @@ import {
       ],
       image:petpair ,
       source_code_link: "#",
-      live_link:"#"
+      live_link:"#",
+      status:"Done"
     },
     {
       name: "Plani",
@@ -359,7 +365,8 @@ import {
       ],
       image:plani,
       source_code_link: "#",
-      live_link:"#"
+      live_link:"#",
+      status:"Done"
     },
     {
       name: "Travel Go",
@@ -377,7 +384,8 @@ import {
       ],
       image:travelGO,
       source_code_link: "https://github.com/sabriLamouchi/Travel-go-React-native-app.git",
-      live_link:"#"
+      live_link:"#",
+      status:"Process"
     },
   ];
   

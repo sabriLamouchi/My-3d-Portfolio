@@ -31,7 +31,7 @@ const Works = () => {
 }
 
 
-const ProjectCard=({index, name, description, tags , image, source_code_link,live_link })=>{
+const ProjectCard=({index, name, description, tags , image, source_code_link,live_link,status })=>{
   return(
     <motion.div variants={fadeIn("up", "spring",index*0.5 ,0.75)}>
        <Tilt
@@ -66,16 +66,23 @@ const ProjectCard=({index, name, description, tags , image, source_code_link,liv
             <h3 className='text-white font-bold text-[24px]'>{name}</h3>
             <p className='text-secondary text-[14px]'>{description}</p>
         </div>
-        <div className='mt-4'>
+        <div className='mt-4 w-full flex items-center'>
+        <div className='w-[75%] self-start'>
           <h3 className='text-white text-[20px] font-semibold '>
-            Tech I used.
-          </h3>
-          <div className=' flex flex-wrap '>
-            {tags.map((tag)=>(
-            <p key={tag.name} className={`text-[14px] 
-            ${tag.color}`} >
-              #{tag.name}
-            </p>))}
+              Tech I used.
+            </h3>
+            <div className=' flex flex-wrap '>
+              {tags.map((tag)=>(
+              <p key={tag.name} className={`text-[14px] 
+              ${tag.color}`} >
+                #{tag.name}
+              </p>))}
+          </div>
+        </div>
+        <div className={status=="Process" ? "text-red-600 relative right-0 ":"text-green-600 relative right-0"}>
+          {
+            status
+          }
         </div>
         </div>
        </Tilt>
